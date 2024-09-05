@@ -1,0 +1,12 @@
+body { margin: 0; font-family: Arial, sans-serif; display: flex; height: 100vh; align-items: center; justify-content: center; background: linear-gradient(135deg, #e2e2e2, #ffffff); } 
+.container { display: flex; width: 90%; max-width: 1000px; background-color: #fff; border-radius: 12px; box-shadow: 0 0 15px rgba(0,0,0,0.2); overflow: hidden; } .image-section { flex: 1; background: url('https://www.shutterstock.com/shutterstock/photos/1949622004/display_1500/stock-vector-linear-flat-illustration-sign-in-page-concept-male-cartoon-character-standing-with-credit-card-1949622004.jpg') no-repeat center center; background-size: cover; /* Remove the grayscale and blur effects */ filter: none; }
+ .form-section { flex: 1; padding: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center; } 
+ .form-section h2 { margin-top: 0; font-size: 28px; color: #333; text-align: center; margin-bottom: 30px; } 
+ .form-group { margin-bottom: 20px; width: 100%; } .form-group label { display: block; margin-bottom: 8px; font-weight: bold; color: #555; } 
+ .form-group input { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; background-color: #f9f9f9; transition: border-color 0.3s ease, box-shadow 0.3s ease; }
+  .form-group input:focus { border-color: #007bff; outline: none; box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); }
+   .form-group button { width: 100%; padding: 12px; background-color: #007bff; border: none; border-radius: 6px; color: #fff; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease; } 
+   .form-group button:hover { background-color: #0056b3; } 
+   .forgot-password { margin-top: 20px; } 
+   .forgot-password a { color: #007bff; text-decoration: none; font-size: 14px; } 
+   .forgot-password a:hover { text-decoration: underline; } 
